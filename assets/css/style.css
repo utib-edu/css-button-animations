@@ -14,7 +14,7 @@
     font-weight: bold;
     box-shadow: 0 6px 0 hsl(200deg 37% 50%), 0 12px 0 rgba(0, 0, 0, .2);
     transition: color .3s, background .3s, box-shadow .3s, transform 0.3s;
-    cursor: url('./images/mouse-pointer.png'), pointer !important;
+    cursor: url('../images/mouse-pointer.png'), pointer !important;
 }
 
 .btn:hover {
@@ -26,7 +26,6 @@
 
 .btn:active {
     color: gainsboro;
-    cursor: url('./images/mouse-pointer.png'), pointer !important;
     background: hsl(200deg 47% 60%);
     box-shadow: 0 0 0 hsl(200deg 37% 50%), 0 0 0 rgba(0, 0, 0, .2);
     transform: translateY(6px);
@@ -35,7 +34,7 @@
 
 body {
     background-color: #d8d8d8;
-    cursor: url('./images/mouse.png'), auto !important;
+    cursor: url('../images/mouse.png'), auto !important;
 }
 
 h1 {
