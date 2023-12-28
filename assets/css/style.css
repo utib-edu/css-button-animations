@@ -245,33 +245,27 @@ h2 {
     opacity: 0;
     transform: translateY(100%);
 }
-
 /* end:: Hiển thị chi tiết - Trượt dưới lên trên */
 
 /* begin:: Hiển thị chi tiết - Lật thẻ */
 .type2 {
-    perspective: 1000px;
+	perspective: 1000px;
 }
-
 .type2 .image,
 .type2 .text {
-    transition: opacity .6s, transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
+	transition: opacity .6s, transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
 }
-
 .type2:hover .image {
-    transform: rotateX(180deg);
+	transform: rotateX(180deg);
 }
-
 .type2 .text {
-    background: #dc6688;
+	background: #dc6688;
 }
-
 .type2:not(:hover) .text {
-    transform: rotateX(-180deg);
+	transform: rotateX(-180deg);
 }
-
 /* end:: Hiển thị chi tiết - Lật thẻ */
 
 /* end:: Hiển thị chi tiết */
